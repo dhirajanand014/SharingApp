@@ -1,6 +1,6 @@
 {
   "name": "SharingApp",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -10,9 +10,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "react": "^16.11.0",
-    "react-native": "^0.61.3",
-    "react-native-webview": "^7.4.3"
+    "react": "^16.12.0",
+    "react-native": "^0.61.5",
+    "react-native-webview": "^7.6.0"
   },
   "devDependencies": {
     "@babel/core": "7.6.2",

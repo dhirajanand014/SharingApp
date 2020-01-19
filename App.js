@@ -53,7 +53,7 @@ export function App() {
         <View style={{ flex: 1 }}>
             <WebView style={{
                 flex: 1,
-            }} source={{ uri: 'https://www.sharing.amcrm.in/' }} ref={webview}
+            }} source={{ uri: 'https://www.copychit.com/' }} ref={webview}
                 javaScriptEnabled={true} startInLoadingState allowsInlineMediaPlayback={false}
                 onLoadStart={(event) => loadStart(event)} onLoadEnd={(event) => loadStop(event)} onShouldStartLoadWithRequest={interceptYoutubeApp} />
             {webviewState.isLoading && <ActivityIndicator style={{
